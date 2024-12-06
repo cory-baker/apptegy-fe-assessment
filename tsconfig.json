@@ -10,5 +10,25 @@
     {
       "path": "./tsconfig.vitest.json"
     }
-  ]
+  ],
+
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "lib": ["DOM", "ESNext"],
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "strictFunctionTypes": false,
+    "allowJs": true,
+    "noUncheckedIndexedAccess": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+  },
 }

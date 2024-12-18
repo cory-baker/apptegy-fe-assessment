@@ -9,6 +9,10 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
+    "extensions": {
+      "name": "install extensions",
+      "command": "code --install-extension vitest.explorer"
+    },
     "install": {
       "name": "install dependencies",
       "command": "pnpm install"

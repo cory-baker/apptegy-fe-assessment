@@ -1,5 +1,0 @@
-{
-    "remote.SSH.defaultExtensions": ["Vue.volar", "emroussel.atom-icons", "vitest.explorer", "esbenp.prettier-vscode"],
-    "remote.downloadExtensionsLocally": true,
-    "remote.SSH.localServerDownload": "always"
-}

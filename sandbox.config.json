@@ -1,0 +1,7 @@
+{
+  "template": "node",
+  "container": {
+    "node": "16"
+  },
+  "extensions": ["Vue.volar", "emroussel.atom-icons", "vitest.explorer", "esbenp.prettier-vscode"]
+}

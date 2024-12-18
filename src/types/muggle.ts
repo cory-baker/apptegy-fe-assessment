@@ -1,4 +1,4 @@
-export type RandomUser = {
+export type Muggle = {
   name: {
     title: string;
     first: string;

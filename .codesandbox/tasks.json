@@ -11,17 +11,12 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "npm run start",
+      "command": "pnpm start",
       "runAtStart": true
-    },
-    "dev": {
-      "name": "dev",
-      "command": "npm run dev",
-      "runAtStart": false
     },
     "test": {
       "name": "test",
-      "command": "npm run test",
+      "command": "pnpm test",
       "runAtStart": false
     }
   }
